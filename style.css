@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg: #000000;
+    --text: #ffffff;
+    --text_inputveld: #000000;
+    --accent: black;
+    --card: #ffffff;
+    --muted: #b3b3b7;
+    --link: var(--accent);
+}
+
+body {
+    background-color: var(--bg);
+    font-family: "Fira Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+h1 {
+    color: var(--text);
+}
+
+h4 {
+    color: red;
+}
+
+a {
+    color: var(--link);
+}
+
+img {
+    height: auto;
+    margin: 10px 25px;
+    display: inline-block;
+}
+
+p {
+    color: black;
+}
+
+
+
+
+.body_login {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(freepik__upload__92472.png);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
+
+.text {
+    color: white;
+}
+
+
+
+
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background-color: #e7feff;
+    border-radius: 50px;
+    border: 10px outset #0cb5da;
+}
+
+input {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.wachtwoord {
+    color: black;
+}
+
+
+
+
+
+.een {
+    color: white;
+}
+
+
+.search {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.zoeken {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    color: black;
+}
+
+.Gresultaat {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.inputveld {
+    var(--bg)
+}
+
+.merken {
+    margin: 0 auto;
+    max-width: calc(100vw - 160px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.merken a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: var(--card);
+    border-radius: 10px;
+    border: 5px groove var(--accent);
+}
+
+.merken a:hover {
+    background-color: var(--muted);
+}
+
+
+
+
+
+.row {
+    display: flex; */
+    gap: 10px;
+    justify-content: space-between;
+    width: 50%;
+    color: var(--text);
+}
+
+.inputfile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputfile .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.inputfile .row label {
+    color: var(--text);
+    min-width: 150px;
+}
+
+
+
+.homemerk, .homemodel {
+    display: flex;
+    width: 200px;
+    border-style: solid;
+}
+
+.koopje {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 550px;
+    margin: 10px;
+}
+
+.autoMerk {
+    height: 100px;
+    width: 150px;
+    color: black;
+}
+
+.autoModel {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid var(--accent);
+    border-radius: 5px;
+    background-color: var(--card);
+    width: 80vw;
+}
+
+table {
+    width: 500px;
+    height: 250px;
+    padding: 5px 10px;
+    border: 2px solid var(--accent);
+    border-radius: 5px;
+    background-color: var(--card);
+    color: black;
+}
+
+th {
+    color: var(--text);
+    background-color: var(--accent);
+}
+
+.verlanglijst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 550px;
+    margin: 10px;
+    color: var(--text);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent);
+    color: var(--text);
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: var(--muted);
+}
+
+.opslaan {
+    background-color: #4CAF50; /* Groen voor opslaan */
+}
+
+.opslaan:hover {
+    background-color: #45a049;
+}
+
+.terug {
+    background-color: #f44336; /* Rood voor terug */
+}
+
+.terug:hover {
+    background-color: #da190b;
+}
+
+.submit-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.error-message {
+    color: #f44336;
+    font-size: 14px;
+    font-weight: 500;
+}

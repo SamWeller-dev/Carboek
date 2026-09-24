@@ -1,5 +1,8 @@
 AutoVerzamel - Webapplicatie Auto's Beheren
 
+voor dat je verder gaat moet je insert.sgl uitvoeren in phpmyadmin.
+vervang de database met jouw gegevens
+
 Webapplicatie voor autoliefhebbers om auto merken en modellen op te slaan en te beheren.
 Technologieën: PHP, SQL (PDO), HTML, CSS.
 
